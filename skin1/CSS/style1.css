@@ -1,0 +1,145 @@
+body{
+    background-image:url("media/bg1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1.head::before{
+    content:"\01F3AE";
+
+}
+h1.head::after{
+    content:"\01F3AE";
+}
+h1.head,h1.mail{
+    font-family: "Press Start 2P";
+    text-align: center;
+    color: FireBrick;
+    font-size: 50px;
+    font-weight: 400;
+}
+p{
+    font-family: "Nerko One";
+    font-size: 30px;
+}
+#intro-p::first-letter{
+    
+    font-family:'Times New Roman';
+    color: brown;
+    font-size:xx-large;
+    font-weight: bold;
+}
+h2::before{
+ content: "\1F3AF";
+}
+h2{
+    font-family: "Press Start 2P";
+    font-weight: 200;
+    text-decoration: black dashed underline;  
+}
+#intro{
+    font-family: "Nerko One";
+    font-style: italic;
+    font-size: 25px;
+    color: brown;   
+}
+#intro-vd{
+    text-align: center;
+}
+
+a:link{
+    color:brown;
+}
+a:visited{
+    color:LightCoral;
+}
+a:hover{
+    color:Yellow;
+}
+a:active{
+    color:Turquoise;
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.def-p::first-letter{
+    font-family:'Times New Roman';
+    color: brown;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.def-img{
+    text-align: center;
+}
+#def1{
+    width :1000px;
+    height :480px;
+}
+.types-list{
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color:FireBrick;
+}
+.p-list::first-letter{
+    font-family:'Times New Roman';
+    color: brown;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.p-list{
+    color: black;
+}
+.img-list{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+th{
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    height: 30px;
+}
+td{
+    font-family:"Nerko One";
+    font-size: 18px;
+    height: 25px;
+}
+table,th,td {
+    border: 2px solid black;
+    border-radius: 3px;
+    
+    
+}
+.table-head{
+    background-color: rgb(236, 51, 51);
+}
+.table-body{
+    background-color: lightgrey;
+}
+h1.mail::after,h1.mail::before{
+    content: "\01F4E7";	
+    ;
+}
+#sub{
+    text-align: center;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+.btn,.txt{
+    background: lightgray;
+    height: 25px;
+    ;
+}
+input.btn:hover{
+    color: brown;
+}
+
+
+
